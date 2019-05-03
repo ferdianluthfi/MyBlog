@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+@font-face{
+    font-family: 'Noto-Reg', sans-serif;
+    src: url(/public/font/Noto-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+    src: url('https://fonts.googleapis.com/css?family=Noto+Sans');
+}
+
+
+@font-face{
+    font-family: 'Noto-Medium', sans-serif;
+    src: url(/public/font/Noto-Medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+    src: url('https://fonts.googleapis.com/css?family=Noto+Sans');
+}
+
+@font-face{
+    font-family: 'Noto-Bold', sans-serif;
+    src: url(/public/font/Noto-Bold.ttf);
+    font-style: normal;
+    src: url('https://fonts.googleapis.com/css?family=Noto+Sans');
+}
+
+.font-nav {
+    font-family: 'Nato+Sans', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    margin-top:5px;
+    margin-right: 30px;
+}
+.font-content{
+    font-family: 'Nato+Sans', sans-serif;
+}
+.font-content-3{
+    font-family: 'Nato+Sans', sans-serif;
+    color: #121216;
+}
+.content-1{
+    background-color: #ffffff;
+    column-count: 2;
+
+}
+.container-1{
+    margin-top:100px;
+    margin-left:100px;
+}
+.content-2{
+    background-color: #121216;
+    column-count: 2;
+}
+.font-content-2{
+    color: #ffffff;
+    font-family: 'Nato+Sans', sans-serif;
+}
+.content-3{
+    background-color: #ffffff;
+    column-count: 2;
+    background-image: url('img/background-3.svg');
+}
+.content-break{
+    background-color: #ffffff;
+}
+.project-2-content{
+    margin-left: 100px;
+}
+.project-2-title{
+    margin-left: 100px;
+}
