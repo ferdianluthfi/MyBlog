@@ -19,6 +19,19 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+    <!-- Fading -->
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+    <script>
+        window.sr = ScrollReveal({
+            distance: '50px',
+            duration: 1000,
+            easing: 'ease',
+            mobile: true,
+            reset: true,
+            viewFactor: 0.4,
+        });
+    </script>
     
 </head>
 <body>
@@ -55,4 +68,9 @@
         </div>
     </div>
 </body>
+
+<footer>
+        <center><h6 style="font-family: 'Nato+Sans', sans-serif;">Made with passion by Luthfi Ferdian</h6><center>
+</footer>
+
 </html>

@@ -11,10 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
+Route::get('/', 'ContentController@index');
+Route::get('/ubah/{id}', 'ContentController@edit');
+Route::post('/update', 'ContentController@update');
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
